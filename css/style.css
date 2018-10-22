@@ -4,6 +4,7 @@ html {
 
 body {
     height: 100%;
+    font-family: 'Permanent Marker', cursive;
     
 }
 a {
@@ -16,4 +17,26 @@ a {
 .social-image{
     width: 30px;
     margin: 15px;
+}
+
+.social {
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    border: black solid;
+    height: 30px;
+    font-size: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo {
+    height: 200px;
 }
