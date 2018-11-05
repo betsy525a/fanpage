@@ -44,3 +44,28 @@ a {
 #logo {
     height: 200px;
 }
+
+#photoContainer {
+    height: 60%;
+    width: 98%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.thumbnail-image {
+    display: flex;
+    justify-content: center;
+}
+
+.thumbnail-image {
+    width: 70%;
+    height: 90%;
+}
+
+#albumRow1, #albumRow2 {
+    display: flex;
+    justify-content: space-around;
+    margin: 10%;
+}
