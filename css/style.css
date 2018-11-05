@@ -69,3 +69,18 @@ a {
     justify-content: space-around;
     margin: 10%;
 }
+
+#homeGif {
+    width: 500px;
+    height: 370px;
+}
+
+#homeMain {
+    margin: 10px;
+    display: flex;
+    Justify-content: center;
+}
+
+#homeName {
+    font-size: 100px;
+}
