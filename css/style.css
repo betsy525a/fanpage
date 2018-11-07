@@ -34,6 +34,7 @@ a {
     border: black solid;
     height: 30px;
     font-size: 20px;
+    margin: 5px;
 }
 
 .header {
@@ -83,4 +84,35 @@ a {
 
 #homeName {
     font-size: 100px;
+}
+
+.historyPhotos {
+    width: 450px;
+    margin: 10px;
+    margin-top: 35px;
+}
+
+.historyMiniDiv {
+    display: flex;
+    width: 100%;
+}
+
+#history {
+    font-size: 24px;
+}
+
+#peteP {
+    margin-top: 111px;
+}
+
+#drama {
+    margin-top: 65px;
+}
+
+#flowers {
+    margin-top: 42px;
+}
+
+#alone {
+    margin-top: 84px;
 }
