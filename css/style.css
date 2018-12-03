@@ -1,5 +1,5 @@
 html {
-    height: 100%;background: url(../fanpage-photos/background.jpg) no-repeat center center fixed; 
+    height: 100%;background: url(../new_background.png) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -57,13 +57,8 @@ a {
 
 .thumbnail-image {
     display: flex;
-    justify-content: center;
 }
 
-.thumbnail-image {
-    width: 70%;
-    height: 90%;
-}
 
 #albumRow1, #albumRow2 {
     display: flex;
@@ -83,7 +78,7 @@ a {
 }
 
 #homeName {
-    font-size: 100px;
+    font-size: 500%;
 }
 
 .historyPhotos {
@@ -115,4 +110,40 @@ a {
 
 #alone {
     margin-top: 84px;
+}
+
+a {
+    color: black;
+}
+
+.galButton {
+    position: relative;
+    height: 15%;
+    width: 10%;
+    background-color: #FF00;
+    color: black;
+    border: dotted 3px black;
+    border-radius: 50%;
+    font-size: 100%;
+    align-items: center;
+    vertical-align: middle;
+    padding: -10px;
+    text-decoration: none;
+}
+
+.thumbnail {
+    justify-content: center;
+}
+
+#photo1, #photo2, #photo3, #photo4, #photo5, #photo6, #photo7, #photo8, #photo9, #photo10, #photo1 {
+    width: 500px;
+}
+
+.fever, .odd, .vices, .weird, .bachelor, .pray {
+    width: 100%;
+    text-align: center;
+}
+
+li, ol, #back1 {
+    
 }
